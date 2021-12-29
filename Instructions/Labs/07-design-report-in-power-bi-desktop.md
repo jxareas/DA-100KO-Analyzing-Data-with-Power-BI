@@ -59,7 +59,7 @@ lab:
 
  	![그림 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
 
  	*팁: Microsoft Edge 즐겨찾기 모음에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
