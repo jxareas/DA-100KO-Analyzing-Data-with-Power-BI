@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 데이터 분석 수행'
     module: '모듈 10 - 고급 분석 수행'
@@ -397,7 +397,7 @@ lab:
 
 	![그림 76](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image43.png)
 
-6. 결과를 검토하면 **Bothel** 도시가 증가할 가능성이 더 높습니다.
+6. 결과를 검토하면 **Bothell** 도시가 증가할 가능성이 더 높습니다.
 
 7. 대상을 수정하여 이윤이 감소하는 데 영향을 미치는 것이 무잇인지 확인합니다.
 
