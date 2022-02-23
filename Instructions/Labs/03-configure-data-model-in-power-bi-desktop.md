@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 데이터 모델링, 1부'
     module: '모듈 4 - Power BI에서 데이터 모델 디자인'
@@ -129,9 +129,9 @@ lab:
 
 	![그림 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image12.png)
 
-	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **제품 | Category**. 이 예제에서 **Product**는 테이블 이름이고 **Category**는 필드 이름입니다.*
+	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **제품 \| Category**. 이 예제에서 **Product**는 테이블 이름이고 **Category**는 필드 이름입니다.*
 
-6. 테이블에 열을 하나 더 추가하려면 **필드** 창에서 **Sales | Sales** 필드를 선택합니다.
+6. 테이블에 열을 하나 더 추가하려면 **필드** 창에서 **Sales \| Sales** 필드를 선택합니다.
 
 7. 테이블 시각적 개체에는 네 가지 제품 범주가 나열되고 판매 값이 각각 동일하며 합계는 동일합니다.
 
@@ -207,9 +207,9 @@ lab:
 
 24. 새 기술을 사용하여 다음의 두 모델 관계를 만듭니다.
 
-	- **Region | SalesTerritoryKey**를 **판매**로 **| SalesTerritoryKey**
+	- **Region \| SalesTerritoryKey**를 **판매**로 **\| SalesTerritoryKey**
 
-	- **Salesperson | EmployeeKey**를 **판매**로 **| EmployeeKey**
+	- **Salesperson \| EmployeeKey**를 **판매**로 **\| EmployeeKey**
 
 	*이 랩에서는 **SalespersonRegion** 및 **Targets**테이블의 연결이 끊긴 상태로 유지됩니다. 영업 직원과 지역 간에는 다대다 관계가 적용됩니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 이 고급 시나리오를 진행할 것입니다.*
 
@@ -355,35 +355,35 @@ lab:
 
 이 작업에서는 단일 대량 업데이트를 사용하여 여러 열을 업데이트합니다. 이 방법을 사용하면 열을 숨기고 열 값의 서식을 지정할 수 있습니다.
 
-1. **필드** 창에서 **Product | ProductKey** 열을 선택합니다.
+1. **필드** 창에서 **Product \| ProductKey** 열을 선택합니다.
 
 2. **Ctrl** 키를 누르는 동안 다음 13개의 열(여러 테이블에 걸쳐)을 선택합니다.
 
-	- Region | SalesTerritoryKey
+	- Region \| SalesTerritoryKey
 
-	- Reseller | ResellerKey
+	- Reseller \| ResellerKey
 
-	- Sales | EmployeeKey
+	- Sales \| EmployeeKey
 	
-	- Sales |ProductKey
+	- Sales \|ProductKey
 
-	- Sales | ResellerKey
+	- Sales \| ResellerKey
 
-	- Sales | SalesOrderNumber
+	- Sales \| SalesOrderNumber
 
-	- Sales | SalesTerritoryKey
+	- Sales \| SalesTerritoryKey
 
-	- Salesperson | EmployeeID
+	- Salesperson \| EmployeeID
 
-	- Salesperson | EmployeeKey
+	- Salesperson \| EmployeeKey
 
-	- Salesperson | UPN
+	- Salesperson \| UPN
 
-	- SalespersonRegion | EmployeeKey
+	- SalespersonRegion \| EmployeeKey
 
-	- SalespersonRegion | SalesTerritoryKey
+	- SalespersonRegion \| SalesTerritoryKey
 
-	- Targets | EmployeeID
+	- Targets \| EmployeeID
 
 3. **속성** 창에서 **숨김** 속성을 **켜기**로 밉니다.
 
@@ -395,11 +395,11 @@ lab:
 
 4. 다음 3개 열을 다중 선택합니다.
 
-	- Product | 표준 가격
+	- Product \| 표준 가격
 
-	- Sales | 비용
+	- Sales \| 비용
 
-	- Sales | 영업
+	- Sales \| 영업
 
 5. **속성** 창의 **서식** 섹션 내에서 **소수점 자릿수** 속성을 **0**(zero)으로 설정합니다.
 
@@ -427,13 +427,13 @@ lab:
 
 	- 시그마 기호(Ʃ)로 표시된 필드는 기본적으로 요약됩니다.
 
-	- **Sales | Cost** 필드 위에 커서를 올리면 도구 설명이 나타납니다.
+	- **Sales \| Cost** 필드 위에 커서를 올리면 도구 설명이 나타납니다.
 
-3. **Sales | OrderDate** 필드를 확장하고 나서 날짜 계층 구조가 표시됩니다.
+3. **Sales \| OrderDate** 필드를 확장하고 나서 날짜 계층 구조가 표시됩니다.
 
 	![그림 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
-	***Targets | TargetMonth** 필드도 비슷한 계층 구조를 제공합니다. 이러한 계층 구조는 사용자가 생성한 것이 아니라 자동으로 생성된 것입니다. 그러나 문제가 있습니다. Adventure Works의 회계 연도는 매년 7월 1일에 시작됩니다. 그러나 이러한 자동 생성 날짜 계층 구조에서 날짜 계층 구조 연도는 매년 1월 1일에 시작됩니다.*
+	***Targets \| TargetMonth** 필드도 비슷한 계층 구조를 제공합니다. 이러한 계층 구조는 사용자가 생성한 것이 아니라 자동으로 생성된 것입니다. 그러나 문제가 있습니다. Adventure Works의 회계 연도는 매년 7월 1일에 시작됩니다. 그러나 이러한 자동 생성 날짜 계층 구조에서 날짜 계층 구조 연도는 매년 1월 1일에 시작됩니다.*
 
 	*이제 이 자동 동작을 끕니다. **Power BI Desktop에서 DAX 계산 만들기, 1부** 랩에서 DAX를 사용하여 날짜 테이블을 만든 다음 Adventure Works의 일정을 정의하도록 구성할 것입니다.*
 
@@ -507,9 +507,9 @@ lab:
 
 	- **나눗셈** 수학 연산 사용
 
-	- **Numerator**를 **Sales** 로 설정 **| Profit** 필드
+	- **Numerator**를 **Sales** 로 설정 **\| Profit** 필드
 
-	- **Denominator**를 **Sales** 로 설정 **| Sales** 필드
+	- **Denominator**를 **Sales** 로 설정 **\| Sales** 필드
 
 	- 측정 이름을 **Profit Margin**으로 바꾸기
 

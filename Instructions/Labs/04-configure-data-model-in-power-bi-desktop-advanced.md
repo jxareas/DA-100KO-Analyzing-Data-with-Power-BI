@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 데이터 모델링, 2부'
     module: '모듈 4 - Power BI에서 데이터 모델 디자인'
@@ -103,11 +103,11 @@ lab:
 
 1. Power BI Desktop에서 보고서 뷰의 **필드** 창에서 다음 두 필드를 선택하여 테이블 시각적 개체를 만듭니다.
 
-	- Salesperson | 영업 사원
+	- Salesperson \| 영업 사원
 
-	- Sales | 영업
+	- Sales \| 영업
 
-	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Salesperson | Salesperson** . 이 예제에서 **Salesperson**은 테이블 이름이고 **Salesperson**은 필드 이름입니다.*
+	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Salesperson \| Salesperson** . 이 예제에서 **Salesperson**은 테이블 이름이고 **Salesperson**은 필드 이름입니다.*
 
 	![그림 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
 
@@ -125,9 +125,9 @@ lab:
 
 5. 끌어서 놓기 기술을 사용하여 다음의 두 모델 관계를 만듭니다.
 
-	- **Salesperson | EmployeeKey** 대 **SalespersonRegion | EmployeeKey**
+	- **Salesperson \| EmployeeKey** 대 **SalespersonRegion \| EmployeeKey**
 
-	- **Region | SalesTerritoryKey**에서 **SalespersonRegion | SalesTerritoryKey**
+	- **Region \| SalesTerritoryKey**에서 **SalespersonRegion \| SalesTerritoryKey**
 
 	***SalespersonRegion** 테이블은 브리징 테이블로 간주될 수 있습니다.*
 
@@ -185,7 +185,7 @@ lab:
 
 	*다대다 관계에서는 이러한 현상이 흔히 나타납니다. 지역 판매 결과가 이중, 삼중 등으로 계산되기 때문입니다. 목록에 두 번째로 나온 판매원인 Brian Welcker를 보십시오. 그의 판매 금액은 총 판매 금액과 동일합니다. 이는 그가 영업 이사이기 때문에 올바른 결과이며 그의 판매량은 모든 지역의 판매량으로 측정됩니다.*
 
-	*다대다 관계가 작동하는 동안에는 이제 영업 사원이 달성한 판매량을 분석할 수 없습니다(관계가 비활성 상태이므로). **Power BI Desktop에서 DAX 계산 만들기, 1부** 랩에서 실적 분석(지역별)용으로 영업 직원을 표시하기 위해 계산된 테이블을 추가할 때 관계를 다시 활성화할 수 있습니다.*
+	*다대다 관계가 작동하는 동안에는 이제 영업 사원이 달성한 판매량을 분석할 수 없습니다(관계가 비활성 상태이므로). **Power BI Desktop에서 DAX 계산 만들기, 1부** 랩에서 실적 분석용으로 영업 직원에게 할당된 영업 지역에서 발생한 판매량을 분석할 수 있게 해 주는 계산된 테이블을 추가할 때 관계를 다시 활성화할 수 있습니다.*
 
 21. 모델링 뷰로 전환한 다음 다이어그램에서 **영업 사원** 테이블을 선택합니다.
 
@@ -197,9 +197,9 @@ lab:
 
 이 작업에서는 **Targets** 테이블에 대한 관계를 만듭니다.
 
-1. **Salesperson (Performance)** 에서 관계를 만듭니다. **| 직원 ID** 열 및 **목표 | EmployeeID** 열에서 관계를 만듭니다.
+1. **Salesperson (Performance)** 에서 관계를 만듭니다. **\| 직원 ID** 열 및 **목표 \| EmployeeID** 열에서 관계를 만듭니다.
 
-2. 보고서 뷰에서 **여러 목표 | 대상** 필드를 테이블 시각적 개체에 추가합니다.
+2. 보고서 뷰에서 **여러 목표 \| 대상** 필드를 테이블 시각적 개체에 추가합니다.
 
 3. 모든 열이 표시되도록 테이블 시각적 개체의 크기를 조정합니다.
 
