@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop에서 데이터 모델링, 1부'
     module: '모듈 4 - Power BI에서 데이터 모델 디자인'
