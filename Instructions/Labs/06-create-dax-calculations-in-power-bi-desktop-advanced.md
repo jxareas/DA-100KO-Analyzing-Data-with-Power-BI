@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop에서 DAX 계산 만들기, 2부'
     module: '모듈 5 - Power BI에서 DAX를 사용하여 모델 계산 만들기'
