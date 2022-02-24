@@ -127,7 +127,7 @@ lab:
 
 	![그림 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
-8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가 | [UPN]** 를 선택합니다.
+8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가 \| [UPN]** 을 선택합니다.
 
 	![그림 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
 

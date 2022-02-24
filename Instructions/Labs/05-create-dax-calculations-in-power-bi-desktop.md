@@ -135,7 +135,7 @@ lab:
 
 5. 이제 **Salesperson** 테이블을 사용할 수 있습니다(이 테이블이 보기에는 숨겨져 있을 수 있으며, 이 경우 가로로 스크롤하여 찾으세요).
 
-6. **Salesperson | EmployeeKey**열과 **Sales | EmployeeKey** 열 간의 관계를 만듭니다.
+6. **Salesperson \| EmployeeKey**열과 **Sales \| EmployeeKey** 열 간의 관계를 만듭니다.
 
 7. **Salesperson (Performance)** 테이블과 **Sales** 테이블 간의 비활성 관계를 마우스 오른쪽 단추로 클릭하고 나서 **삭제**를 선택합니다.
 
@@ -325,15 +325,15 @@ lab:
 
 6. 다음 두 모델 관계를 만듭니다.
 
-	- **Date | Date**와 **Sales | OrderDate**
+	- **Date \| Date**와 **Sales \| OrderDate**
 
-	- **Date | 날짜** 와 **대상** 간 **| TargetMonth**
+	- **Date \| 날짜** 와 **대상** 간 **\| TargetMonth**
 
 7. 다음 두 개 열을 숨깁니다.
 
-	- Sales | OrderDate
+	- Sales \| OrderDate
 
-	- Targets | TargetMonth
+	- Targets \| TargetMonth
 
 ### **작업 6: 날짜 테이블 표시**
 
@@ -369,9 +369,9 @@ lab:
 
 이 작업에서는 간단한 측정값을 만듭니다. 간단한 측정값은 단일 열의 값을 집계하거나 테이블의 행 개수를 계산합니다.
 
-1. 보고서 뷰의 **2페이지**에 있는 **필드** 창에서 **판매**를 드래그합니다 **| Unit Price** 필드를 행렬 시각적 개체로 끌어갑니다.
+1. 보고서 뷰의 **2페이지**에 있는 **필드** 창에서 **판매**를 드래그합니다 **\| Unit Price** 필드를 행렬 시각적 개체로 끌어갑니다.
 
-	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Sales | Unit Price**. 이 예제에서 **Sales**는 테이블 이름이고 **Unit Price**는 필드 이름입니다.*
+	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Sales \| Unit Price**. 이 예제에서 **Sales**는 테이블 이름이고 **Unit Price**는 필드 이름입니다.*
 
 	![그림 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
@@ -491,7 +491,7 @@ lab:
 
 	![그림 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
 
-4. **Targets**의 이름을 바꿉니다. **| Target** 열의 이름을 **Targets | TargetAmount**로 바꿉니다.
+4. **Targets**의 이름을 바꿉니다. **\| Target** 열의 이름을 **Targets \| TargetAmount**로 바꿉니다.
 
 	*팁: 보고서 뷰에서 열의 이름을 바꿀 수 있는 방법에는 몇 가지가 있습니다. **필드** 창에서 열을 마우스 오른쪽 단추로 클릭한 다음 **Rename** 또는 열을 두 번 클릭하거나 **F2** 키를 누를 수 있습니다.*
 
