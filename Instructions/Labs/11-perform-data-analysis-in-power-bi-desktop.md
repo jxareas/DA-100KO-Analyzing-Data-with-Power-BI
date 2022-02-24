@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop에서 데이터 분석 수행'
     module: '모듈 10 - 고급 분석 수행'
